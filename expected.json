@@ -1,0 +1,69 @@
+{
+  "action_sources": [
+    {
+      "action": "actions/checkout",
+      "commit": "11bd71901bbe5b1630ceea73d27597364c9af683",
+      "commit_url": "https://github.com/actions/checkout/commit/11bd71901bbe5b1630ceea73d27597364c9af683",
+      "release": "v4.2.2",
+      "release_url": "https://github.com/actions/checkout/releases/tag/v4.2.2"
+    },
+    {
+      "action": "actions/upload-artifact",
+      "commit": "ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "commit_url": "https://github.com/actions/upload-artifact/commit/ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "release": "v4.6.2",
+      "release_url": "https://github.com/actions/upload-artifact/releases/tag/v4.6.2"
+    }
+  ],
+  "base_image": "docker.io/gogost/gost:3.2.7-nightly.20260602@sha256:afc0137758ab4ce399d47a299f9abbacbf522b52a17e59cbb4b4e7a1a66e9196",
+  "base_image_digest": "sha256:afc0137758ab4ce399d47a299f9abbacbf522b52a17e59cbb4b4e7a1a66e9196",
+  "base_image_tag": "docker.io/gogost/gost:3.2.7-nightly.20260602",
+  "build_args": {},
+  "context_files": [
+    {
+      "bytes": 294,
+      "mode": "0o664",
+      "path": "Dockerfile",
+      "sha256": "a2385dd6b3eee6e04c49b467df84ed2a273fd402a9cdd404a64fb535e9b26ff7"
+    },
+    {
+      "bytes": 0,
+      "mode": "0o664",
+      "path": "allowlist.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 3765,
+      "mode": "0o775",
+      "path": "bin/network-policy",
+      "sha256": "ff1cacfb95e17cda3668f389176ae54e5e4139cff12ee54b4d745722ad0ff0b2"
+    },
+    {
+      "bytes": 1250,
+      "mode": "0o775",
+      "path": "entrypoint.sh",
+      "sha256": "2e225ed745eb5976f93afd52d91c844b954b5f6f45373fb70c4c509e36d1e069"
+    },
+    {
+      "bytes": 583,
+      "mode": "0o664",
+      "path": "gost.yaml",
+      "sha256": "78c18e58efbc7c8e226cb311e2a4cf3863d5a2f3e54b3bf15a0ea4b885345290"
+    }
+  ],
+  "context_hash_helper_sha256": "5caabfe0b2abd1bfba292109a47a8a4c83113d857c56c9ccd09d96ac0154422d",
+  "context_key": "c08979aaa1949ff7",
+  "context_key_algorithm": "Harbor 0.24.0 docker_build_context_hash; BLAKE2b-64; empty build_args; linux/amd64",
+  "context_source": "wheel://harbor-0.24.0-py3-none-any.whl/harbor/environments/docker/harbor-docker-egress-control-sidecar/",
+  "git_checkout_permission_restoration": "Restore recorded permission bits only after content SHA256 validation; never rewrite context bytes",
+  "harbor_version": "0.24.0",
+  "harbor_wheel_bytes": 2331740,
+  "harbor_wheel_filename": "harbor-0.24.0-py3-none-any.whl",
+  "harbor_wheel_sha256": "23b7ba616a3aae4eff561ced5e2c51c7186f2981e53a770dea9c689d3969877c",
+  "harbor_wheel_url": "https://files.pythonhosted.org/packages/9e/63/0e3d788e8d1ed116125507c6a01e3fb95cf82be71f2ea7040a1458709d21/harbor-0.24.0-py3-none-any.whl",
+  "platform": "linux/amd64",
+  "preparation_only": true,
+  "prepared_at": "2026-10-09T17:22:11.318160+08:00",
+  "schema_version": 1,
+  "target_tag": "harbor-prebuilt:harbor-docker-egress-control-sidecar--c08979aaa1949ff7"
+}

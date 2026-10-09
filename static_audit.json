@@ -1,0 +1,77 @@
+{
+  "complete_context_file_count": 5,
+  "context_verification": {
+    "content_sha256_verified": true,
+    "context_key": "c08979aaa1949ff7",
+    "file_contents_modified": false,
+    "file_count": 5,
+    "original_modes_verified": true,
+    "permissions_restored": false,
+    "platform": "linux/amd64"
+  },
+  "five_context_files_unchanged_from_frozen_preparation": true,
+  "github_uploads_include_only_public_package": true,
+  "not_an_image_build_result": true,
+  "package_files_excluding_this_audit": {
+    ".github/workflows/build-sidecar.yml": {
+      "bytes": 1497,
+      "sha256": "5a03fef4fbc412c9554e9db95781dc0f29d1889ac5436fca9f17f33e10eba177"
+    },
+    "MANIFEST.sha256": {
+      "bytes": 438,
+      "sha256": "922a4c7323b2793c9214a798deb68975a279d8980233f2edddc914271ecc8042"
+    },
+    "README.md": {
+      "bytes": 2822,
+      "sha256": "713366789ae20204c1a40c360228d08bbcd12c40856921c57517435be84a29fb"
+    },
+    "context/Dockerfile": {
+      "bytes": 294,
+      "sha256": "a2385dd6b3eee6e04c49b467df84ed2a273fd402a9cdd404a64fb535e9b26ff7"
+    },
+    "context/allowlist.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "context/bin/network-policy": {
+      "bytes": 3765,
+      "sha256": "ff1cacfb95e17cda3668f389176ae54e5e4139cff12ee54b4d745722ad0ff0b2"
+    },
+    "context/entrypoint.sh": {
+      "bytes": 1250,
+      "sha256": "2e225ed745eb5976f93afd52d91c844b954b5f6f45373fb70c4c509e36d1e069"
+    },
+    "context/gost.yaml": {
+      "bytes": 583,
+      "sha256": "78c18e58efbc7c8e226cb311e2a4cf3863d5a2f3e54b3bf15a0ea4b885345290"
+    },
+    "expected.json": {
+      "bytes": 3012,
+      "sha256": "527bb1f9075962fed47931b44d79ba9d2301c2357db6cc28a416814112d375f8"
+    },
+    "scripts/build_sidecar.py": {
+      "bytes": 10646,
+      "sha256": "e6d362c9a68a72f746be9acc473642d92e7057bdcac08de9d8555952da4c4da4"
+    },
+    "scripts/verify_context.py": {
+      "bytes": 3611,
+      "sha256": "96f1f387f920d0aa8d2eb56f7042e197546934a8b56b6de64876b4859e6a2d08"
+    }
+  },
+  "prepared_at": "2026-10-09T17:29:21.956448+08:00",
+  "producer_status_capture_unchanged": true,
+  "public_only": true,
+  "public_producer_changes_only": [
+    "Output tar basename",
+    "Explicit commit/workflow/run identity",
+    "Runner identity and OS logs",
+    "Image OS/architecture/creation timestamp",
+    "Equivalent -t and ./context build arguments"
+  ],
+  "python_ast_yaml_and_bash_syntax": "PASS",
+  "sha256sum_exit_code": 0,
+  "sha256sum_stdout": "context/Dockerfile: OK\ncontext/allowlist.txt: OK\ncontext/bin/network-policy: OK\ncontext/entrypoint.sh: OK\ncontext/gost.yaml: OK\n",
+  "status": "PASS_STATIC_PRE_EXECUTION",
+  "task_private_information_found": false,
+  "workflow_unchanged_from_frozen_preparation": true
+}
